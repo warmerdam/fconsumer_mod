@@ -1,0 +1,13 @@
+{
+  "name": "fconsumer",
+  "version": "0.1.0",
+  "factorio_version": "1.1",
+  "title": "Frank's Consumer mod",
+  "author": "FrankW",
+  "contact": "warmerdam@pobox.com",
+  "homepage": "https://forums.factorio.com/viewforum.php?f=51",
+  "dependencies": [
+    "angelsbioprocessing >= 0.7.17"
+  ],
+  "description": "Provides support for human consumers as a sink for resources.\nDepends on Angels bioprocessing for variou food items."
+}

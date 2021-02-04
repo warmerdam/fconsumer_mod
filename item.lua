@@ -65,4 +65,26 @@ data:extend(
         {type = "item", name = "human-consumer", amount = 1, probability = 0.005},
       },
   },
+  {
+    type = "recipe",
+    name = "well-fed-middle-class-apartment",
+    category = "home-living-middle-class-apartment",
+    subgroup = "fconsumer-eating",
+    icon = "__fconsumer__/icons/apartment-building.png",
+    icon_size = 32,
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "human-consumer", amount = 10},
+      {type = "item", name = "food", amount = 10},
+      {type = "item", name = "consumer-product", amount = 10},
+      {type = "fluid", name = "water", amount = 50},
+    },
+    energy_required = 30, -- crafting time
+      results = {
+        {type = "item", name = "human-consumer", amount = 10},
+        {type = "item", name = "human-consumer", amount = 1, probability = 0.05},
+        --{type = "fluid", name = "sewage", amount = 50},
+      },
+  },
 })

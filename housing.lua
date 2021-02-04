@@ -14,6 +14,10 @@ data:extend(
     type = "recipe-category",
     name = "home-living-middle-class",
   },
+  {
+    type = "recipe-category",
+    name = "home-living-middle-class-apartment",
+  },
 -- Shack
   {
     type = "item",
@@ -176,7 +180,7 @@ data:extend(
       module_slots = 2
     },
     allowed_effects = {"consumption", "pollution"},
-    crafting_categories = {"home-living-middle-class", "home-living-shack"},
+    crafting_categories = {"home-living-middle-class-apartment"},
     crafting_speed = 1,
     energy_source =
     {
@@ -195,5 +199,20 @@ data:extend(
         line_length = 1,
         shift = {0, 0},
     },
+    fluid_boxes = {
+      {
+        production_type = "input",
+        pipe_covers = pipecoverspictures(),
+        base_area = 10,
+        base_level = -1,
+        pipe_connections = {{type = "input", position = {0.5, -2.5}}}
+      },
+      {
+        production_type = "output",
+        pipe_covers = pipecoverspictures(),
+        base_level = 1,
+        pipe_connections = {{ position = {-0.5, 2.5} }}
+      },
+    }
   },
 })

@@ -69,6 +69,8 @@ data:extend(
       {type = "fluid", name = "liquid-nutrient-pulp", amount = 50}
     },
     energy_required = 5, -- crafting time
-    result = "food"
+    results = {
+      {type = "item", name = "food", amount = 2},
+    },
   },
 })

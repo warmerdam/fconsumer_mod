@@ -40,10 +40,10 @@ data:extend(
       {type = "item", name = "food-algae-patty", amount = 1},
     },
     energy_required = 30, -- crafting time
-      results = {
-        {type = "item", name = "human-consumer", amount = 1},
-        {type = "item", name = "human-consumer", amount = 1, probability = 0.005},
-      },
+    results = {
+      {type = "item", name = "human-consumer", amount = 1},
+      {type = "item", name = "human-consumer", amount = 1, probability = 0.005},
+    },
   },
   {
     type = "recipe",
@@ -60,10 +60,10 @@ data:extend(
       {type = "item", name = "consumer-product", amount = 1},
     },
     energy_required = 30, -- crafting time
-      results = {
-        {type = "item", name = "human-consumer", amount = 1},
-        {type = "item", name = "human-consumer", amount = 1, probability = 0.005},
-      },
+    results = {
+      {type = "item", name = "human-consumer", amount = 1},
+      {type = "item", name = "human-consumer", amount = 1, probability = 0.005},
+    },
   },
   {
     type = "recipe",
@@ -78,13 +78,14 @@ data:extend(
       {type = "item", name = "human-consumer", amount = 10},
       {type = "item", name = "food", amount = 10},
       {type = "item", name = "consumer-product", amount = 10},
-      {type = "fluid", name = "water", amount = 50},
+      {type = "fluid", name = "water-purified", amount = 50},
     },
     energy_required = 30, -- crafting time
-      results = {
-        {type = "item", name = "human-consumer", amount = 10},
-        {type = "item", name = "human-consumer", amount = 1, probability = 0.05},
-        --{type = "fluid", name = "sewage", amount = 50},
-      },
+    results = {
+      {type = "item", name = "human-consumer", amount = 10},
+      {type = "item", name = "human-consumer", amount = 1, probability = 0.05},
+      {type = "item", name = "consumer-garbage", amount = 1},
+      {type = "fluid", name = "sewage", amount = 50},
+    },
   },
 })

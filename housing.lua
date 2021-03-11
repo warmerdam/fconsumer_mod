@@ -4,7 +4,7 @@ data:extend(
     type = "item-subgroup",
     name = "fconsumer-housing",
     group = "fconsumer",
-    order = "a",
+    order = "c",
   },
   {
     type = "recipe-category",

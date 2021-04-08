@@ -88,4 +88,47 @@ data:extend(
       {type = "fluid", name = "sewage", amount = 50},
     },
   },
+  {
+    type = "recipe",
+    name = "very-well-fed-middle-class",
+    category = "home-living-middle-class",
+    subgroup = "fconsumer-eating",
+    icon = "__fconsumer__/icons/house.png",
+    icon_size = 32,
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "human-consumer", amount = 1},
+      {type = "item", name = "food-all", amount = 1},
+      {type = "item", name = "consumer-product", amount = 2},
+    },
+    energy_required = 30, -- crafting time
+    results = {
+      {type = "item", name = "human-consumer", amount = 1},
+      {type = "item", name = "human-consumer", amount = 1, probability = 0.005},
+    },
+  },
+  {
+    type = "recipe",
+    name = "very-well-fed-middle-class-apartment",
+    category = "home-living-middle-class-apartment",
+    subgroup = "fconsumer-eating",
+    icon = "__fconsumer__/icons/apartment-building.png",
+    icon_size = 32,
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "human-consumer", amount = 10},
+      {type = "item", name = "food-all", amount = 10},
+      {type = "item", name = "consumer-product", amount = 20},
+      {type = "fluid", name = "water-purified", amount = 50},
+    },
+    energy_required = 30, -- crafting time
+    results = {
+      {type = "item", name = "human-consumer", amount = 10},
+      {type = "item", name = "human-consumer", amount = 1, probability = 0.05},
+      {type = "item", name = "consumer-garbage", amount = 1},
+      {type = "fluid", name = "sewage", amount = 50},
+    },
+  },
 })

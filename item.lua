@@ -25,6 +25,25 @@ data:extend(
     order = "a",
     stack_size = 200
   },
+  -- This recipe is just to create people for the purpose of getting things
+  -- started.  Eventually we will add some at start, and/or use rockets for
+  -- immigrants.
+  {
+    type = "recipe",
+    name = "create-person",
+    subgroup = "fconsumer-eating",
+    icon = "__fconsumer__/icons/human-consumer.png",
+    icon_size = 32,
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "bio-puffer-1", amount = 1},
+    },
+    energy_required = 1, -- crafting time
+    results = {
+      {type = "item", name = "human-consumer", amount = 1},
+    },
+  },
   -- Consuming
   {
     type = "recipe",

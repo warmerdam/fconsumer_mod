@@ -61,7 +61,7 @@ data:extend(
     energy_required = 30, -- crafting time
     results = {
       {type = "item", name = "human-consumer", amount = 1},
-      {type = "item", name = "human-consumer", amount = 1, probability = 0.005},
+      {type = "item", name = "human-consumer", amount = 1, probability = 0.0025},
     },
   },
   {
@@ -81,7 +81,7 @@ data:extend(
     energy_required = 30, -- crafting time
     results = {
       {type = "item", name = "human-consumer", amount = 1},
-      {type = "item", name = "human-consumer", amount = 1, probability = 0.005},
+      {type = "item", name = "human-consumer", amount = 1, probability = 0.0025},
     },
   },
   {
@@ -102,7 +102,7 @@ data:extend(
     energy_required = 30, -- crafting time
     results = {
       {type = "item", name = "human-consumer", amount = 10},
-      {type = "item", name = "human-consumer", amount = 1, probability = 0.05},
+      {type = "item", name = "human-consumer", amount = 1, probability = 0.025},
       {type = "item", name = "consumer-garbage", amount = 1},
       {type = "fluid", name = "sewage", amount = 50},
     },
@@ -124,7 +124,7 @@ data:extend(
     energy_required = 30, -- crafting time
     results = {
       {type = "item", name = "human-consumer", amount = 1},
-      {type = "item", name = "human-consumer", amount = 1, probability = 0.005},
+      {type = "item", name = "human-consumer", amount = 1, probability = 0.0025},
     },
   },
   {
@@ -145,7 +145,7 @@ data:extend(
     energy_required = 30, -- crafting time
     results = {
       {type = "item", name = "human-consumer", amount = 10},
-      {type = "item", name = "human-consumer", amount = 1, probability = 0.05},
+      {type = "item", name = "human-consumer", amount = 1, probability = 0.025},
       {type = "item", name = "consumer-garbage", amount = 1},
       {type = "fluid", name = "sewage", amount = 50},
     },

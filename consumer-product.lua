@@ -4,7 +4,7 @@ data:extend(
     type = "item-subgroup",
     name = "fconsumer-consumer-product",
     group = "fconsumer",
-    order = "a",
+    order = "c",
   },
 -- Generic Consumer Product
   {
@@ -13,7 +13,7 @@ data:extend(
     icon = "__fconsumer__/icons/consumer-product.png",
     icon_size = 32,
     subgroup = "fconsumer-consumer-product",
-    order = "a",
+    order = "c",
     stack_size = 200
   },
   {

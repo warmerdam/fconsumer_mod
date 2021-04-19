@@ -26,8 +26,8 @@ data:extend(
       {type = "fluid", name = "sewage", amount = 150}
     },
     results = {
-      {type = "fluid", name = "water-purified", amount = 140}
-      -- add compost output?
+      {type = "fluid", name = "water-purified", amount = 140},
+      {type = "item", name = "solid-compost", amount = 1, probability = 0.5}
     },
     always_show_products = true,
     icons = angelsmods.functions.create_liquid_recipe_icon(
@@ -61,12 +61,12 @@ data:extend(
     icon_size = 32,
     ingredients =
     {
-      {type = "item", name = "consumer-garbage", amount = 20},
+      {type = "item", name = "consumer-garbage", amount = 15},
     },
     energy_required = 20, -- crafting time
     results = {
       {type = "item", name = "iron-plate", amount = 1},
-      -- plastic? 
+      {type = "item", name = "cellulose-fiber", amount = 1},
     },
   },
 })

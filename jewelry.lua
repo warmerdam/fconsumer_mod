@@ -157,7 +157,7 @@ data:extend(
     energy_required = 0.1, -- crafting time
     results = 
     {
-aww      {type = "item", name = "jewelry", amount = 20},
+      {type = "item", name = "jewelry", amount = 20},
     },
   },
 })

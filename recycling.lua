@@ -33,9 +33,11 @@ data:extend(
     icons = angelsmods.functions.create_liquid_recipe_icon(
       -- ???
       {
-        "water-purified"
+        nil, --        "y-con_water",
+        "water-purified",
+	"sulfur"
       },
-      "www"
+      "WsSS"
     ),
     order = "c[thermal-water-purification]"
   },

@@ -25,6 +25,16 @@ data:extend(
     order = "a",
     stack_size = 200
   },
+  -- Person
+  {
+    type = "item",
+    name = "human-happiness",
+    icon = "__fconsumer__/icons/human-happiness.png",
+    icon_size = 32,
+    subgroup = "fconsumer-eating",
+    order = "a",
+    stack_size = 1000
+  },
   -- This recipe is just to create people for the purpose of getting things
   -- started.  Eventually we will add some at start, and/or use rockets for
   -- immigrants.
@@ -62,6 +72,7 @@ data:extend(
     results = {
       {type = "item", name = "human-consumer", amount = 1},
       {type = "item", name = "human-consumer", amount = 1, probability = 0.0025},
+      {type = "item", name = "human-happiness", amount = 1, probability = 0.01},
     },
   },
   {
@@ -82,6 +93,7 @@ data:extend(
     results = {
       {type = "item", name = "human-consumer", amount = 1},
       {type = "item", name = "human-consumer", amount = 1, probability = 0.0025},
+      {type = "item", name = "human-happiness", amount = 1, probability = 0.1},
     },
   },
   {
@@ -105,6 +117,7 @@ data:extend(
       {type = "item", name = "human-consumer", amount = 1, probability = 0.025},
       {type = "item", name = "consumer-garbage", amount = 1},
       {type = "fluid", name = "sewage", amount = 50},
+      {type = "item", name = "human-happiness", amount = 1},
     },
   },
   {
@@ -125,6 +138,7 @@ data:extend(
     results = {
       {type = "item", name = "human-consumer", amount = 1},
       {type = "item", name = "human-consumer", amount = 1, probability = 0.0025},
+      {type = "item", name = "human-happiness", amount = 1, probability = 0.2},
     },
   },
   {
@@ -146,8 +160,9 @@ data:extend(
     results = {
       {type = "item", name = "human-consumer", amount = 10},
       {type = "item", name = "human-consumer", amount = 1, probability = 0.025},
-      {type = "item", name = "consumer-garbage", amount = 1},
+      {type = "item", name = "consumer-garbage", amount = 2},
       {type = "fluid", name = "sewage", amount = 50},
+      {type = "item", name = "human-happiness", amount = 2},
     },
   },
 })

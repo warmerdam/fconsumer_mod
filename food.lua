@@ -104,7 +104,7 @@ data:extend(
     },
     energy_required = 5, -- crafting time
     results = {
-      {type = "item", name = "food-burrito", amount = 2},
+      {type = "item", name = "food-burrito", amount = 3},
     },
   },
   {
@@ -123,7 +123,7 @@ data:extend(
     },
     energy_required = 5, -- crafting time
     results = {
-      {type = "item", name = "food", amount = 2},
+      {type = "item", name = "food", amount = 3},
     },
   },
 -- Salad
@@ -148,7 +148,7 @@ data:extend(
     },
     energy_required = 5, -- crafting time
     results = {
-      {type = "item", name = "food-salad", amount = 2},
+      {type = "item", name = "food-salad", amount = 3},
     },
   },
   {
@@ -166,7 +166,7 @@ data:extend(
     },
     energy_required = 5, -- crafting time
     results = {
-      {type = "item", name = "food", amount = 2},
+      {type = "item", name = "food", amount = 3},
     },
   },
 -- Cereal
@@ -191,7 +191,7 @@ data:extend(
     },
     energy_required = 5, -- crafting time
     results = {
-      {type = "item", name = "food-cereal", amount = 2},
+      {type = "item", name = "food-cereal", amount = 3},
     },
   },
   {
@@ -209,7 +209,7 @@ data:extend(
     },
     energy_required = 5, -- crafting time
     results = {
-      {type = "item", name = "food", amount = 2},
+      {type = "item", name = "food", amount = 3},
     },
   },
 -- Stir Fry
@@ -237,7 +237,7 @@ data:extend(
     },
     energy_required = 5, -- crafting time
     results = {
-      {type = "item", name = "food-stir-fry", amount = 5},
+      {type = "item", name = "food-stir-fry", amount = 7},
     },
   },
   {
@@ -258,7 +258,7 @@ data:extend(
     },
     energy_required = 5, -- crafting time
     results = {
-      {type = "item", name = "food", amount = 5},
+      {type = "item", name = "food", amount = 7},
     },
   },
 -- Fried Fish
@@ -284,7 +284,7 @@ data:extend(
     },
     energy_required = 5, -- crafting time
     results = {
-      {type = "item", name = "food-fried-fish", amount = 5},
+      {type = "item", name = "food-fried-fish", amount = 7},
     },
   },
   {
@@ -303,7 +303,7 @@ data:extend(
     },
     energy_required = 5, -- crafting time
     results = {
-      {type = "item", name = "food", amount = 2},
+      {type = "item", name = "food", amount = 7},
     },
   },
 -- Ommette (puffer eggs?)
@@ -333,7 +333,7 @@ data:extend(
     },
     energy_required = 3, -- crafting time
     results = {
-      {type = "item", name = "food-all", amount = 5},
+      {type = "item", name = "food-all", amount = 6},
     },
   },
 })

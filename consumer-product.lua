@@ -98,11 +98,25 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "cp-toy",
+    name = "cp-toy-rubics-cube",
     enabled = true,
     ingredients =
     {
       {type = "item", name = "plastic-bar", amount = 1},
+    },
+    energy_required = 5, -- crafting time
+    results = 
+    {
+      {type = "item", name = "cp-toy", amount = 2},
+    },
+  },
+  {
+    type = "recipe",
+    name = "cp-toy-soldier",
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "lead-plate", amount = 1},
     },
     energy_required = 5, -- crafting time
     results = 
@@ -122,6 +136,87 @@ data:extend(
     results = 
     {
       {type = "item", name = "consumer-product", amount = 1},
+    },
+  },
+-- Coins
+  {
+    type = "item",
+    name = "cp-coins",
+    icon = "__fconsumer__/icons/cp-smart-phone.png",
+    icon_size = 32,
+    subgroup = "fconsumer-consumer-product",
+    order = "c",
+    stack_size = 200,
+  },
+  {
+    type = "recipe",
+    name = "cp-coins",
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "angels-plate-nickel", amount = 3},
+      {type = "item", name = "angels-plate-silver", amount = 1},
+      {type = "item", name = "angels-plate-gold", amount = 1},
+    },
+    energy_required = 10, -- crafting time
+    results = 
+    {
+      {type = "item", name = "cp-coins", amount = 3},
+    },
+  },
+  {
+    type = "recipe",
+    name = "consumer-product-coins",
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "cp-coins", amount = 1},
+    },
+    energy_required = 0.1, -- crafting time
+    results = 
+    {
+      {type = "item", name = "consumer-product", amount = 1},
+    },
+  },
+-- Smartphone
+  {
+    type = "item",
+    name = "cp-smart-phone",
+    icon = "__fconsumer__/icons/cp-smart-phone.png",
+    icon_size = 32,
+    subgroup = "fconsumer-consumer-product",
+    order = "c",
+    stack_size = 200,
+  },
+  {
+    type = "recipe",
+    name = "cp-smart-phone",
+    enabled = true,
+    ingredients =
+    {
+      -- (blue) Electronic Circuit Board
+      {type = "item", name = "processing-unit", amount = 1},
+      -- CPU
+      {type = "item", name = "processing-electronics", amount = 1},
+    },
+    energy_required = 5, -- crafting time
+    results = 
+    {
+      {type = "item", name = "cp-smart-phone", amount = 1},
+    },
+  },
+  {
+    type = "recipe",
+    name = "consumer-product-smart-phone",
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "cp-smart-phone", amount = 1},
+    },
+    energy_required = 0.1, -- crafting time
+    results = 
+    {
+      {type = "item", name = "consumer-product", amount = 5},
     },
   },
 -- Cookware

@@ -38,11 +38,12 @@ data:extend(
     {
       {type = "item", name = "jewelry-gold-bangle", amount = 1},
       {type = "item", name = "jewelry-silver-necklace", amount = 1},
+      {type = "item", name = "jewelry-diamond-necklace", amount = 1},
     },
     energy_required = 0.1, -- crafting time
     results = 
     {
-      {type = "item", name = "jewelry", amount = 3},
+      {type = "item", name = "jewelry", amount = 6},
     },
   },
 -- Gold Bangle
@@ -158,6 +159,45 @@ data:extend(
     results = 
     {
       {type = "item", name = "jewelry", amount = 20},
+    },
+  },
+-- Diamond Necklace
+  {
+    type = "item",
+    name = "jewelry-diamond-necklace",
+    icon = "__fconsumer__/icons/diamond-necklace.png",
+    icon_size = 32,
+    subgroup = "fconsumer-jewelry",
+    order = "c",
+    stack_size = 200
+  },
+  {
+    type = "recipe",
+    name = "diamond-necklace",
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "jewelry-silver-necklace", amount = 1},
+      {type = "item", name = "diamond-5", amount = 1},
+    },
+    energy_required = 10, -- crafting time
+    results = 
+    {
+      {type = "item", name = "jewelry-diamond-necklace", amount = 3},
+    },
+  },
+  {
+    type = "recipe",
+    name = "jewelry-diamond-necklace",
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "jewelry-diamond-necklace", amount = 1},
+    },
+    energy_required = 0.1, -- crafting time
+    results = 
+    {
+      {type = "item", name = "jewelry", amount = 2},
     },
   },
 })

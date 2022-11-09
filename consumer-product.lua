@@ -142,7 +142,7 @@ data:extend(
   {
     type = "item",
     name = "cp-coins",
-    icon = "__fconsumer__/icons/cp-smart-phone.png",
+    icon = "__fconsumer__/icons/cp-coins.png",
     icon_size = 32,
     subgroup = "fconsumer-consumer-product",
     order = "c",

@@ -10,7 +10,7 @@ data:extend(
   {
     type = "item",
     name = "cp-entertainment",
-    icon = "__fconsumer__/icons/consumer-product.png",
+    icon = "__fconsumer__/icons/cp-entertainment.png",
     icon_size = 32,
     subgroup = "fconsumer-entertainment",
     order = "c",
@@ -138,7 +138,7 @@ data:extend(
   {
     type = "item",
     name = "ent-show",
-    icon = "__fconsumer__/icons/cp-furniture.png",
+    icon = "__fconsumer__/icons/cp-ent-show.png",
     icon_size = 32,
     subgroup = "fconsumer-consumer-product",
     order = "c",

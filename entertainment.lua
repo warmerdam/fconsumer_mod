@@ -156,7 +156,7 @@ data:extend(
     {
       {type = "item", name = "biter-small", amount = 2},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 8, -- crafting time
     results = 
     {
       {type = "item", name = "biter-small", amount = 1},
@@ -175,7 +175,7 @@ data:extend(
     {
       {type = "item", name = "biter-medium", amount = 2},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 8, -- crafting time
     results = 
     {
       {type = "item", name = "biter-medium", amount = 1},
@@ -194,7 +194,7 @@ data:extend(
     {
       {type = "item", name = "biter-big", amount = 2},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 8, -- crafting time
     results = 
     {
       {type = "item", name = "biter-big", amount = 1},
@@ -212,7 +212,7 @@ data:extend(
     ingredients =
     {
     },
-    energy_required = 5, -- crafting time
+    energy_required = 8, -- crafting time
     results = 
     {
       {type = "item", name = "ent-show", amount = 5},

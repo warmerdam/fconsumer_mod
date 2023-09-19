@@ -48,6 +48,28 @@ data:extend(
       {type = "item", name = "consumer-product", amount = 6},
     },
   },
+  {
+    type = "recipe",
+    name = "consumer-product-super-mix",
+    enabled = true,
+    ingredients =
+    {
+      {type = "item", name = "cp-smart-phone", amount = 1},
+      {type = "item", name = "cp-coins", amount = 1},
+      {type = "item", name = "jewelry", amount = 1},
+      {type = "item", name = "cp-furniture", amount = 1},
+      {type = "item", name = "cp-toy", amount = 2},
+      {type = "item", name = "cp-cookware", amount = 1},
+      {type = "item", name = "cp-appliance", amount = 1},
+      {type = "item", name = "cp-car", amount = 1},
+      {type = "item", name = "cp-entertainment", amount = 2},
+    },
+    energy_required = 0.1, -- crafting time
+    results = 
+    {
+      {type = "item", name = "consumer-product", amount = 100},
+    },
+  },
 -- Furniture
   {
     type = "item",
@@ -66,7 +88,7 @@ data:extend(
     {
       {type = "item", name = "wood", amount = 2},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = 
     {
       {type = "item", name = "cp-furniture", amount = 2},
@@ -104,7 +126,7 @@ data:extend(
     {
       {type = "item", name = "plastic-bar", amount = 1},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = 
     {
       {type = "item", name = "cp-toy", amount = 2},
@@ -118,7 +140,7 @@ data:extend(
     {
       {type = "item", name = "lead-plate", amount = 1},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = 
     {
       {type = "item", name = "cp-toy", amount = 2},
@@ -158,10 +180,10 @@ data:extend(
       {type = "item", name = "angels-plate-silver", amount = 1},
       {type = "item", name = "angels-plate-gold", amount = 1},
     },
-    energy_required = 10, -- crafting time
+    energy_required = 5, -- crafting time
     results = 
     {
-      {type = "item", name = "cp-coins", amount = 3},
+      {type = "item", name = "cp-coins", amount = 10},
     },
   },
   {
@@ -216,7 +238,7 @@ data:extend(
     energy_required = 0.1, -- crafting time
     results = 
     {
-      {type = "item", name = "consumer-product", amount = 5},
+      {type = "item", name = "consumer-product", amount = 8},
     },
   },
 -- Cookware
@@ -237,7 +259,7 @@ data:extend(
     {
       {type = "item", name = "angels-plate-aluminium", amount = 1},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = 
     {
       {type = "item", name = "cp-cookware", amount = 2},
@@ -278,7 +300,7 @@ data:extend(
       {type = "item", name = "steel-plate", amount = 1},
       {type = "item", name = "engine-unit", amount = 1},
     },
-    energy_required = 12, -- crafting time
+    energy_required = 15, -- crafting time
     results = 
     {
       {type = "item", name = "cp-car", amount = 1},
@@ -318,7 +340,7 @@ data:extend(
       {type = "item", name = "angels-wire-copper", amount = 1},
       {type = "item", name = "electronic-circuit", amount = 1},
     },
-    energy_required = 8, -- crafting time
+    energy_required = 5, -- crafting time
     results = 
     {
       {type = "item", name = "cp-appliance", amount = 1},

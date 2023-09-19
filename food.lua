@@ -30,7 +30,7 @@ data:extend(
     {
       {type = "item", name = "algae-green", amount = 5},
     },
-    energy_required = 3, -- crafting time
+    energy_required = 2, -- crafting time
     result = "food-algae-patty"
   },
 -- Food
@@ -63,7 +63,7 @@ data:extend(
     {
       {type = "fluid", name = "liquid-nutrient-pulp", amount = 50}
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     result = "food-soylent-green"
   },
   {
@@ -76,7 +76,7 @@ data:extend(
     {
       {type = "fluid", name = "liquid-nutrient-pulp", amount = 50}
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food", amount = 2},
     },
@@ -102,7 +102,7 @@ data:extend(
       {type = "item", name = "solid-beans", amount = 1},
       {type = "item", name = "solid-nuts", amount = 1},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food-burrito", amount = 3},
     },
@@ -121,7 +121,7 @@ data:extend(
       {type = "item", name = "solid-beans", amount = 1},
       {type = "item", name = "solid-nuts", amount = 1},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food", amount = 3},
     },
@@ -146,7 +146,7 @@ data:extend(
       {type = "item", name = "solid-leafs", amount = 2},
       {type = "item", name = "solid-pips", amount = 1},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food-salad", amount = 3},
     },
@@ -164,7 +164,7 @@ data:extend(
       {type = "item", name = "solid-leafs", amount = 2},
       {type = "item", name = "solid-pips", amount = 1},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food", amount = 3},
     },
@@ -189,7 +189,7 @@ data:extend(
       {type = "item", name = "solid-corn", amount = 2},
       {type = "item", name = "solid-nuts", amount = 1},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food-cereal", amount = 3},
     },
@@ -207,7 +207,7 @@ data:extend(
       {type = "item", name = "solid-corn", amount = 2},
       {type = "item", name = "solid-nuts", amount = 1},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food", amount = 3},
     },
@@ -235,7 +235,7 @@ data:extend(
       {type = "item", name = "bio-raw-meat", amount = 1},
       {type = "fluid", name = "liquid-vegetable-oil", amount = 3},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food-stir-fry", amount = 7},
     },
@@ -256,7 +256,7 @@ data:extend(
       {type = "item", name = "bio-raw-meat", amount = 1},
       {type = "fluid", name = "liquid-vegetable-oil", amount = 3},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food", amount = 7},
     },
@@ -276,15 +276,37 @@ data:extend(
     name = "cook-fried-fish",
     category = "crafting-with-fluid",
     subgroup = "fconsumer-specific-food",
+    icon = "__fconsumer__/icons/algae-patty.png",
+    icon_size = 32,
     enabled = true,
+    main_product = "", -- force use of recipe name.
     ingredients =
     {
       {type = "item", name = "raw-fish", amount = 1},
       {type = "fluid", name = "liquid-vegetable-oil", amount = 2},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food-fried-fish", amount = 7},
+    },
+  },
+  {
+    type = "recipe",
+    name = "cook-fried-levac",
+    category = "crafting-with-fluid",
+    subgroup = "fconsumer-specific-food",
+    icon = "__fconsumer__/icons/algae-patty.png",
+    icon_size = 32,
+    enabled = true,
+    main_product = "", -- force use of recipe name.
+    ingredients =
+    {
+      {type = "item", name = "alien-fish-1-raw", amount = 1},
+      {type = "fluid", name = "liquid-vegetable-oil", amount = 2},
+    },
+    energy_required = 3, -- crafting time
+    results = {
+      {type = "item", name = "food-fried-fish", amount = 4},
     },
   },
   {
@@ -301,9 +323,28 @@ data:extend(
       {type = "item", name = "raw-fish", amount = 1},
       {type = "fluid", name = "liquid-vegetable-oil", amount = 2},
     },
-    energy_required = 5, -- crafting time
+    energy_required = 3, -- crafting time
     results = {
       {type = "item", name = "food", amount = 7},
+    },
+  },
+  {
+    type = "recipe",
+    name = "cook-fried-levac-food",
+    category = "crafting-with-fluid",
+    subgroup = "fconsumer-food",
+    icon = "__fconsumer__/icons/food.png",
+    icon_size = 32,
+    enabled = true,
+    main_product = "", -- force use of recipe name.
+    ingredients =
+    {
+      {type = "item", name = "alien-fish-1-raw", amount = 1},
+      {type = "fluid", name = "liquid-vegetable-oil", amount = 2},
+    },
+    energy_required = 3, -- crafting time
+    results = {
+      {type = "item", name = "food", amount = 4},
     },
   },
 -- Ommette (puffer eggs?)
@@ -326,14 +367,13 @@ data:extend(
     {
       {type = "item", name = "food-burrito", amount = 1},
       {type = "item", name = "food-salad", amount = 1},
-      {type = "item", name = "food-salad", amount = 1},
       {type = "item", name = "food-cereal", amount = 1},
       {type = "item", name = "food-stir-fry", amount = 1},
       {type = "item", name = "food-fried-fish", amount = 1},
     },
-    energy_required = 3, -- crafting time
+    energy_required = 0.25, -- crafting time
     results = {
-      {type = "item", name = "food-all", amount = 6},
+      {type = "item", name = "food-all", amount = 5},
     },
   },
 })

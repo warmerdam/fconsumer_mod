@@ -72,3 +72,6 @@ data:extend(
     },
   },
 })
+
+angelsmods.functions.allow_productivity("garbage-recycling")
+angelsmods.functions.allow_productivity("sewage-purification")

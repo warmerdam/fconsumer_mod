@@ -63,6 +63,8 @@ data:extend(
     icon = "__fconsumer__/icons/house-shack.png",
     icon_size = 32,
     enabled = true,
+    -- attempt to minimize the storage of extra people in the building.
+    overload_multiplier = 1,
     ingredients =
     {
       {type = "item", name = "human-consumer", amount = 1},
@@ -83,6 +85,8 @@ data:extend(
     icon = "__fconsumer__/icons/house.png",
     icon_size = 32,
     enabled = true,
+    -- attempt to minimize the storage of extra people in the building.
+    overload_multiplier = 1,
     ingredients =
     {
       {type = "item", name = "human-consumer", amount = 1},
@@ -104,6 +108,8 @@ data:extend(
     icon = "__fconsumer__/icons/apartment-building.png",
     icon_size = 32,
     enabled = true,
+    -- attempt to minimize the storage of extra people in the building.
+    overload_multiplier = 1,
     ingredients =
     {
       {type = "item", name = "human-consumer", amount = 10},
@@ -128,6 +134,8 @@ data:extend(
     icon = "__fconsumer__/icons/house.png",
     icon_size = 32,
     enabled = true,
+    -- attempt to minimize the storage of extra people in the building.
+    overload_multiplier = 1,
     ingredients =
     {
       {type = "item", name = "human-consumer", amount = 1},
@@ -149,6 +157,8 @@ data:extend(
     icon = "__fconsumer__/icons/apartment-building.png",
     icon_size = 32,
     enabled = true,
+    -- attempt to minimize the storage of extra people in the building.
+    overload_multiplier = 1,
     ingredients =
     {
       {type = "item", name = "human-consumer", amount = 10},
